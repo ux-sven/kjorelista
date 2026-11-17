@@ -102,3 +102,19 @@ enheten er satt til nb/no/nn, ellers engelsk. Språk og tema lagres i UserDefaul
 Expo-appen (`drive-log-language`, `driving-log-theme`).
 
 Eksportert rapport (PDF/CSV) er alltid på norsk, som i webløsningen.
+
+## TestFlight og App Store
+
+Prosjektet er satt opp med automatisk signering mot team `XE253SCCM3`. Xcode må være logget inn med
+Apple-kontoen (Xcode → Innstillinger → Kontoer), og appen må finnes i App Store Connect med bundle-ID
+`no.svenway.kjorelista`.
+
+```sh
+scripts/testflight.sh            # bygg Release og last opp til App Store Connect (TestFlight)
+scripts/testflight.sh --export   # bare lag build/export/Kjorelista.ipa
+```
+
+Build-nummeret settes automatisk til tidspunktet, så hver opplasting får et nytt nummer. Versjonsnummeret
+(`MARKETING_VERSION`, nå 1.0.0) endres i prosjektet. `Kjorelista/PrivacyInfo.xcprivacy` er personvernmanifestet
+App Store krever (UserDefaults, e-post, navn og kjøreturer knyttet til kontoen, ingen sporing).
+
