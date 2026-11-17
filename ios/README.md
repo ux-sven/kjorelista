@@ -118,3 +118,16 @@ Build-nummeret settes automatisk til tidspunktet, så hver opplasting får et ny
 (`MARKETING_VERSION`, nå 2.0) endres i prosjektet. `Kjorelista/PrivacyInfo.xcprivacy` er personvernmanifestet
 App Store krever (UserDefaults, e-post, navn og kjøreturer knyttet til kontoen, ingen sporing).
 
+
+## Xcode Cloud
+
+Arbeidsflyten (workflow) settes opp i Xcode (**Product → Xcode Cloud → Create Workflow**) og lagres hos Apple,
+ikke i repoet. Det som ligger i repoet:
+
+- Delt skjema `Kjorelista` og `Package.resolved` (Xcode Cloud henter supabase-swift selv).
+- `ci_scripts/ci_post_xcodebuild.sh`: skriver de fem siste commit-meldingene til «Hva skal testes» i TestFlight.
+
+Anbefalt arbeidsflyt: start ved endringer på `main` i `ios/`, handling **Archive (iOS)**, distribusjon
+**TestFlight (intern testing)**, Xcode-versjon «Latest Release». Xcode Cloud nummererer builds selv (1, 2, 3 …);
+det er gyldig fordi versjon + build-nummer bare må være unikt. Lokale opplastinger med `scripts/testflight.sh`
+bruker formatet ÅÅÅÅ.MDD.TMM og kolliderer ikke.
