@@ -5,14 +5,15 @@
 # Bruk:  scripts/testflight.sh          # bygg og last opp
 #        scripts/testflight.sh --export # bare lag .ipa i build/export (ingen opplasting)
 #
-# Build-nummeret settes til tidspunktet (ÅÅÅÅMMDDTTMM), slik at hver opplasting får et høyere nummer.
+# Build-nummeret settes til tidspunktet som ÅÅÅÅ.MDD.TMM (f.eks. 2026.1117.1445), slik at hver opplasting får et
+# høyere nummer. Tre korte tall fordi App Store Connect ikke godtar tall større enn 2^31 i build-nummeret.
 # Versjonsnummeret (MARKETING_VERSION) endres i prosjektet når en ny versjon skal ut.
 set -e
 cd "$(dirname "$0")/.."
 
 DESTINATION=upload
 [ "$1" = "--export" ] && DESTINATION=export
-BUILD_NUMBER=$(date +%Y%m%d%H%M)
+BUILD_NUMBER="$(date +%Y).$(date +%-m%d).$(date +%-H%M)"
 ARCHIVE=build/Kjorelista.xcarchive
 
 rm -rf "$ARCHIVE" build/export

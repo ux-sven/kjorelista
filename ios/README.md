@@ -4,7 +4,7 @@ Native iOS-app (Swift 6 + SwiftUI, iOS 18.0+) for kjørebok-tjenesten Kjørelist
 Android er beskrevet i [`../docs/spesifikasjon.md`](../docs/spesifikasjon.md). Appen bruker samme Supabase-backend
 som webløsningen (tabellene `trips` og `profiles`, Edge-funksjonen `delete-account` i `../supabase/functions`).
 
-- Bundle-ID: `no.svenway.kjorelista`, navn på hjemskjerm: «Kjørelista»
+- Bundle-ID: `com.svenway.kjorelista`, navn på hjemskjerm: «Kjørelista»
 - Eneste avhengighet: [supabase-swift](https://github.com/supabase/supabase-swift) 2.x (Swift Package Manager)
 - Ingen tredjeparts UI-biblioteker
 
@@ -40,7 +40,7 @@ scripts/run-demo.sh <simulator-UDID>    # eller i en bestemt simulator
 
 # manuelt
 xcrun simctl install booted build/Build/Products/Debug-iphonesimulator/Kjorelista.app
-xcrun simctl launch booted no.svenway.kjorelista -demo
+xcrun simctl launch booted com.svenway.kjorelista -demo
 ```
 
 I Xcode: skjemaet har argumentet `-demo` forhåndsutfylt under *Edit Scheme → Run → Arguments* (skru det på).
@@ -107,7 +107,7 @@ Eksportert rapport (PDF/CSV) er alltid på norsk, som i webløsningen.
 
 Prosjektet er satt opp med automatisk signering mot team `XE253SCCM3`. Xcode må være logget inn med
 Apple-kontoen (Xcode → Innstillinger → Kontoer), og appen må finnes i App Store Connect med bundle-ID
-`no.svenway.kjorelista`.
+`com.svenway.kjorelista`.
 
 ```sh
 scripts/testflight.sh            # bygg Release og last opp til App Store Connect (TestFlight)
@@ -115,6 +115,6 @@ scripts/testflight.sh --export   # bare lag build/export/Kjorelista.ipa
 ```
 
 Build-nummeret settes automatisk til tidspunktet, så hver opplasting får et nytt nummer. Versjonsnummeret
-(`MARKETING_VERSION`, nå 1.0.0) endres i prosjektet. `Kjorelista/PrivacyInfo.xcprivacy` er personvernmanifestet
+(`MARKETING_VERSION`, nå 2.0) endres i prosjektet. `Kjorelista/PrivacyInfo.xcprivacy` er personvernmanifestet
 App Store krever (UserDefaults, e-post, navn og kjøreturer knyttet til kontoen, ingen sporing).
 

@@ -8,4 +8,4 @@ DEST="platform=iOS Simulator,id=$(xcrun simctl list devices booted | grep -m1 -o
 [ "$UDID" != "booted" ] && DEST="platform=iOS Simulator,id=$UDID"
 xcodebuild -project Kjorelista.xcodeproj -scheme Kjorelista -destination "$DEST" -derivedDataPath build build -quiet
 xcrun simctl install "$UDID" build/Build/Products/Debug-iphonesimulator/Kjorelista.app
-xcrun simctl launch --terminate-running-process "$UDID" no.svenway.kjorelista -demo
+xcrun simctl launch --terminate-running-process "$UDID" com.svenway.kjorelista -demo

@@ -9,7 +9,7 @@ kommentarer i koden fortsatt viser til.)
 | Mappe | `ios/` | `android/` |
 | Språk/UI | Swift 6, SwiftUI | Kotlin, Jetpack Compose (Material 3) |
 | Minstekrav | iOS 18.0 | Android 10 (minSdk 29), targetSdk/compileSdk 37 |
-| Bundle-ID / package | `no.svenway.kjorelista` | `no.svenway.kjorelista` |
+| Bundle-ID / package | `com.svenway.kjorelista` (eksisterende App Store-app, versjon 2.0) | `no.svenway.kjorelista` |
 | Supabase-klient | `supabase-swift` (SPM) | `supabase-kt` (postgrest-kt, auth-kt, functions-kt) + Ktor |
 | Navn på hjemskjerm | Kjørelista | Kjørelista |
 
@@ -34,7 +34,7 @@ Ingen tredjeparts UI-biblioteker. Bruk plattformens egne komponenter (SwiftUI `N
 ## Demomodus (obligatorisk – brukes til all testing og til skjermbilder)
 
 Bruker Kari Nordmann, 5 turer relativt til dagens dato, alt i minnet (`DemoBackend` i begge apper).
-- iOS: aktiveres med launch-argument `-demo` (f.eks. `xcrun simctl launch … no.svenway.kjorelista -demo`) eller env `KJORELISTA_DEMO=1`.
+- iOS: aktiveres med launch-argument `-demo` (f.eks. `xcrun simctl launch … com.svenway.kjorelista -demo`) eller env `KJORELISTA_DEMO=1`.
 - Android: aktiveres med intent-extra `demo=true` (`adb shell am start -n …/.MainActivity --ez demo true`) eller en debug-BuildConfig-flagg.
 - **Logg aldri inn med ekte kontoer, opprett ikke kontoer og kall aldri delete-account under testing.** Produksjonsdatabasen har aktive brukere.
 

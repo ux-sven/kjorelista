@@ -35,7 +35,7 @@ Krever `android/local.properties` med `sdk.dir=...` (lages automatisk av Android
 Begge appene har en demomodus med eksempeldata og uten nettverk, brukt til testing og skjermbilder.
 Bruk den til all testing, aldri ekte kontoer: produksjonsdatabasen har aktive brukere.
 
-- iOS: start med launch-argumentet `-demo`
+- iOS: start med launch-argumentet `-demo` (`xcrun simctl launch booted com.svenway.kjorelista -demo`)
 - Android: `adb shell am start -n no.svenway.kjorelista/.MainActivity --ez demo true` (legg til `--ez demo_many true` for 30 ekstra turer)
 
 ## Backend
