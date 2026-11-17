@@ -215,9 +215,9 @@ struct HomeView: View {
         } label: {
             Image(systemName: "plus")
                 .font(.system(size: 26, weight: .semibold))
-                .foregroundStyle(AppColor.primaryForeground)
+                .foregroundStyle(AppColor.onGold)
                 .frame(width: 60, height: 60)
-                .background(Circle().fill(AppColor.primary))
+                .background(Circle().fill(AppColor.gold))
                 .shadow(color: .black.opacity(0.25), radius: 6, y: 3)
         }
         .buttonStyle(FabButtonStyle())

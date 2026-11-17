@@ -9,7 +9,8 @@ import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Color
 
-// Fargene er hentet fra kjoreliste-app/src/lib/theme.tsx (som igjen følger webløsningen)
+// Fargeprofil fra Kjørelista-logoen: lilla gradient (#63517B → #7E6F91) og gull (#DBC388).
+// Lilla er hovedfarge i lys modus, gull i mørk modus. Holdes lik ios/Kjorelista/Core/Theme.swift.
 @Immutable
 data class AppColors(
     val background: Color,
@@ -28,36 +29,45 @@ data class AppColors(
 )
 
 val LightAppColors = AppColors(
-    background = Color(0xFFF6F7FA),
-    foreground = Color(0xFF2C3E50),
+    background = Color(0xFFF5F3F8),
+    foreground = Color(0xFF2E2540),
     card = Color(0xFFFFFFFF),
-    primary = Color(0xFF3498DB),
+    primary = Color(0xFF5A4873),
     primaryForeground = Color(0xFFFFFFFF),
-    muted = Color(0xFFF1F2F6),
-    mutedForeground = Color(0xFF5A6C7D),
+    muted = Color(0xFFEEEAF3),
+    mutedForeground = Color(0xFF6B6280),
     destructive = Color(0xFFC0392B),
     destructiveForeground = Color(0xFFFFFFFF),
     success = Color(0xFF27AE60),
     warning = Color(0xFFD68910),
-    border = Color(0xFFE5E7EB),
-    inputBackground = Color(0xFFF8F9FB),
+    border = Color(0xFFE3DEEA),
+    inputBackground = Color(0xFFF8F6FA),
 )
 
 val DarkAppColors = AppColors(
-    background = Color(0xFF0F172A),
-    foreground = Color(0xFFF8FAFC),
-    card = Color(0xFF1E293B),
-    primary = Color(0xFF60A5FA),
-    primaryForeground = Color(0xFF0F172A),
-    muted = Color(0xFF334155),
-    mutedForeground = Color(0xFFCBD5E1),
+    background = Color(0xFF1C1726),
+    foreground = Color(0xFFF5F2F9),
+    card = Color(0xFF2A2337),
+    primary = Color(0xFFDBC388),
+    primaryForeground = Color(0xFF2E2540),
+    muted = Color(0xFF3A3148),
+    mutedForeground = Color(0xFFC3BBD0),
     destructive = Color(0xFFEF4444),
     destructiveForeground = Color(0xFFF8FAFC),
     success = Color(0xFF10B981),
     warning = Color(0xFFF59E0B),
-    border = Color(0xFF475569),
-    inputBackground = Color(0xFF0F172A),
+    border = Color(0xFF4A4058),
+    inputBackground = Color(0xFF1C1726),
 )
+
+/** Merkevarefarger (like i lys og mørk modus) */
+object Brand {
+    val gold = Color(0xFFDBC388)
+    val onGold = Color(0xFF3D3152)
+    val purpleLight = Color(0xFF7E6F91)
+    val purple = Color(0xFF63517B)
+    val purpleDark = Color(0xFF4E3F66)
+}
 
 val LocalAppColors = staticCompositionLocalOf { LightAppColors }
 
@@ -68,10 +78,10 @@ fun KjorelistaTheme(dark: Boolean, content: @Composable () -> Unit) {
         darkColorScheme(
             primary = c.primary,
             onPrimary = c.primaryForeground,
-            primaryContainer = Color(0xFF1E3A5F),
-            onPrimaryContainer = Color(0xFFDBEAFE),
-            secondaryContainer = Color(0xFF1E3A5F),
-            onSecondaryContainer = Color(0xFFDBEAFE),
+            primaryContainer = Color(0xFF4A3D2A),
+            onPrimaryContainer = Color(0xFFF3E6C4),
+            secondaryContainer = Color(0xFF3A3148),
+            onSecondaryContainer = Color(0xFFE8E1F2),
             background = c.background,
             onBackground = c.foreground,
             surface = c.background,
@@ -81,7 +91,7 @@ fun KjorelistaTheme(dark: Boolean, content: @Composable () -> Unit) {
             surfaceContainerLowest = c.background,
             surfaceContainerLow = c.card,
             surfaceContainer = c.card,
-            surfaceContainerHigh = Color(0xFF243247),
+            surfaceContainerHigh = Color(0xFF332A42),
             surfaceContainerHighest = c.muted,
             outline = c.border,
             outlineVariant = c.border,
@@ -92,10 +102,10 @@ fun KjorelistaTheme(dark: Boolean, content: @Composable () -> Unit) {
         lightColorScheme(
             primary = c.primary,
             onPrimary = c.primaryForeground,
-            primaryContainer = Color(0xFFD6EAF8),
-            onPrimaryContainer = Color(0xFF1B4F72),
-            secondaryContainer = Color(0xFFD6EAF8),
-            onSecondaryContainer = Color(0xFF1B4F72),
+            primaryContainer = Color(0xFFE6DFF0),
+            onPrimaryContainer = Color(0xFF2E2540),
+            secondaryContainer = Color(0xFFE6DFF0),
+            onSecondaryContainer = Color(0xFF2E2540),
             background = c.background,
             onBackground = c.foreground,
             surface = c.background,
@@ -107,7 +117,7 @@ fun KjorelistaTheme(dark: Boolean, content: @Composable () -> Unit) {
             surfaceContainer = c.card,
             surfaceContainerHigh = c.card,
             surfaceContainerHighest = c.muted,
-            outline = Color(0xFFCBD5E1),
+            outline = Color(0xFFC9C0D6),
             outlineVariant = c.border,
             error = c.destructive,
             onError = c.destructiveForeground,

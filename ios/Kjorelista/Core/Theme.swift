@@ -1,22 +1,36 @@
 import SwiftUI
 import UIKit
 
-/// Farger fra kjoreliste-app/src/lib/theme.tsx (som igjen er hentet fra webløsningen).
-/// Hver farge har en lys og en mørk variant og følger `preferredColorScheme`.
+/// Fargeprofil fra Kjørelista-logoen: lilla gradient (#63517B → #7E6F91) og gull (#DBC388).
+/// Lilla er hovedfarge i lys modus, gull i mørk modus. Hver farge følger `preferredColorScheme`.
 enum AppColor {
-    static let background = dynamic(0xF6F7FA, 0x0F172A)
-    static let foreground = dynamic(0x2C3E50, 0xF8FAFC)
-    static let card = dynamic(0xFFFFFF, 0x1E293B)
-    static let primary = dynamic(0x3498DB, 0x60A5FA)
-    static let primaryForeground = dynamic(0xFFFFFF, 0x0F172A)
-    static let muted = dynamic(0xF1F2F6, 0x334155)
-    static let mutedForeground = dynamic(0x5A6C7D, 0xCBD5E1)
+    static let background = dynamic(0xF5F3F8, 0x1C1726)
+    static let foreground = dynamic(0x2E2540, 0xF5F2F9)
+    static let card = dynamic(0xFFFFFF, 0x2A2337)
+    static let primary = dynamic(0x5A4873, 0xDBC388)
+    static let primaryForeground = dynamic(0xFFFFFF, 0x2E2540)
+    static let muted = dynamic(0xEEEAF3, 0x3A3148)
+    static let mutedForeground = dynamic(0x6B6280, 0xC3BBD0)
     static let destructive = dynamic(0xC0392B, 0xEF4444)
     static let destructiveForeground = dynamic(0xFFFFFF, 0xF8FAFC)
     static let success = dynamic(0x27AE60, 0x10B981)
     static let warning = dynamic(0xD68910, 0xF59E0B)
-    static let border = dynamic(0xE5E7EB, 0x475569)
-    static let inputBackground = dynamic(0xF8F9FB, 0x0F172A)
+    static let border = dynamic(0xE3DEEA, 0x4A4058)
+    static let inputBackground = dynamic(0xF8F6FA, 0x1C1726)
+
+    /// Merkevarefarger (like i lys og mørk modus)
+    static let gold = Color(uiColor: UIColor(hex: 0xDBC388))
+    static let onGold = Color(uiColor: UIColor(hex: 0x3D3152))
+    static let brandPurpleLight = Color(uiColor: UIColor(hex: 0x7E6F91))
+    static let brandPurple = Color(uiColor: UIColor(hex: 0x63517B))
+    static let brandPurpleDark = Color(uiColor: UIColor(hex: 0x4E3F66))
+
+    /// Lilla gradient som i logoen
+    static let brandGradient = LinearGradient(
+        colors: [brandPurpleLight, brandPurpleDark],
+        startPoint: .topTrailing,
+        endPoint: .bottomLeading
+    )
 
     private static func dynamic(_ light: UInt32, _ dark: UInt32) -> Color {
         Color(uiColor: UIColor { traits in

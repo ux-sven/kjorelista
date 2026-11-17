@@ -169,6 +169,7 @@ fun TripScreen(store: AppStore, preferences: Preferences, editId: String?, copyI
 
     val hasDuration = durationH >= 0 && durationM >= 0
     val kmFocus = remember { FocusRequester() }
+    val routeFocus = remember { FocusRequester() }
 
     fun clearError(field: Field) {
         if (field in errors) errors = errors - field
@@ -254,7 +255,7 @@ fun TripScreen(store: AppStore, preferences: Preferences, editId: String?, copyI
     }
 
     LaunchedEffect(Unit) {
-        if (!isEdit) runCatching { kmFocus.requestFocus() }
+        if (!isEdit) runCatching { routeFocus.requestFocus() }
     }
 
     Scaffold(
@@ -294,7 +295,7 @@ fun TripScreen(store: AppStore, preferences: Preferences, editId: String?, copyI
                 verticalArrangement = Arrangement.spacedBy(24.dp),
             ) {
                 // Tur
-                Section(title = stringResource(R.string.section_trip), error = errors[Field.KILOMETERS] ?: errors[Field.ROUTE]) {
+                Section(title = stringResource(R.string.section_trip), error = errors[Field.ROUTE] ?: errors[Field.KILOMETERS]) {
                     ValueRow(
                         label = stringResource(R.string.trips_date),
                         value = Format.longDate(date, language),
@@ -304,18 +305,8 @@ fun TripScreen(store: AppStore, preferences: Preferences, editId: String?, copyI
                         },
                     )
                     RowDivider()
-                    Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                        OutlinedTextField(
-                            value = kilometers,
-                            onValueChange = { kilometers = it; clearError(Field.KILOMETERS) },
-                            label = { Text(stringResource(R.string.trips_kilometers)) },
-                            placeholder = { Text("0") },
-                            suffix = { Text("km") },
-                            isError = Field.KILOMETERS in errors,
-                            singleLine = true,
-                            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Decimal, imeAction = ImeAction.Next),
-                            modifier = Modifier.fillMaxWidth().focusRequester(kmFocus),
-                        )
+                    // Strekning først, med forslag rett under, deretter kilometer
+                    Column(Modifier.padding(start = 16.dp, end = 16.dp, top = 16.dp)) {
                         OutlinedTextField(
                             value = route,
                             onValueChange = { route = it; clearError(Field.ROUTE) },
@@ -326,10 +317,13 @@ fun TripScreen(store: AppStore, preferences: Preferences, editId: String?, copyI
                             keyboardOptions = KeyboardOptions(
                                 capitalization = KeyboardCapitalization.Words,
                                 autoCorrectEnabled = false,
-                                imeAction = ImeAction.Done,
+                                imeAction = ImeAction.Next,
                             ),
-                            keyboardActions = KeyboardActions(onDone = { focusManager.clearFocus() }),
-                            modifier = Modifier.fillMaxWidth().onFocusChanged { routeFocused = it.isFocused },
+                            keyboardActions = KeyboardActions(onNext = { kmFocus.requestFocus() }),
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .focusRequester(routeFocus)
+                                .onFocusChanged { routeFocused = it.isFocused },
                         )
                     }
                     suggestions.forEach { trip ->
@@ -337,6 +331,20 @@ fun TripScreen(store: AppStore, preferences: Preferences, editId: String?, copyI
                             title = trip.route,
                             subtitle = "${Format.number(trip.kilometers, language)} km · ${Format.clock(trip.hours, trip.minutes)}",
                             onClick = { pickRoute(trip) },
+                        )
+                    }
+                    Column(Modifier.padding(16.dp)) {
+                        OutlinedTextField(
+                            value = kilometers,
+                            onValueChange = { kilometers = it; clearError(Field.KILOMETERS) },
+                            label = { Text(stringResource(R.string.trips_kilometers)) },
+                            placeholder = { Text("0") },
+                            suffix = { Text("km") },
+                            isError = Field.KILOMETERS in errors,
+                            singleLine = true,
+                            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Decimal, imeAction = ImeAction.Done),
+                            keyboardActions = KeyboardActions(onDone = { focusManager.clearFocus() }),
+                            modifier = Modifier.fillMaxWidth().focusRequester(kmFocus),
                         )
                     }
                 }

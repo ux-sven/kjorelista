@@ -116,17 +116,6 @@ struct TripFormView: View {
                 Section {
                     DatePicker(t.trips.date, selection: $date, displayedComponents: .date)
                         .foregroundStyle(AppColor.foreground)
-                    HStack {
-                        Text(t.trips.kilometers)
-                            .foregroundStyle(errors[.kilometers] != nil ? AppColor.destructive : AppColor.foreground)
-                        TextField("0", text: $kilometers)
-                            .keyboardType(.decimalPad)
-                            .multilineTextAlignment(.trailing)
-                            .focused($focus, equals: .kilometers)
-                            .accessibilityLabel(t.trips.kilometers)
-                            .onChange(of: kilometers) { errors[.kilometers] = nil }
-                        Text("km").foregroundStyle(AppColor.mutedForeground)
-                    }
                     TextField(
                         "",
                         text: $route,
@@ -135,7 +124,8 @@ struct TripFormView: View {
                     )
                     .textInputAutocapitalization(.words)
                     .autocorrectionDisabled()
-                    .submitLabel(.done)
+                    .submitLabel(.next)
+                    .onSubmit { focus = .kilometers }
                     .focused($focus, equals: .route)
                     .accessibilityLabel(t.trips.route)
                     .onChange(of: route) { errors[.route] = nil }
@@ -163,10 +153,21 @@ struct TripFormView: View {
                         }
                         .accessibilityLabel("\(trip.route), \(Format.number(trip.kilometers, lang)) km")
                     }
+                    HStack {
+                        Text(t.trips.kilometers)
+                            .foregroundStyle(errors[.kilometers] != nil ? AppColor.destructive : AppColor.foreground)
+                        TextField("0", text: $kilometers)
+                            .keyboardType(.decimalPad)
+                            .multilineTextAlignment(.trailing)
+                            .focused($focus, equals: .kilometers)
+                            .accessibilityLabel(t.trips.kilometers)
+                            .onChange(of: kilometers) { errors[.kilometers] = nil }
+                        Text("km").foregroundStyle(AppColor.mutedForeground)
+                    }
                 } header: {
                     Text(s.sectionTrip)
                 } footer: {
-                    if let error = errors[.kilometers] ?? errors[.route] {
+                    if let error = errors[.route] ?? errors[.kilometers] {
                         Text(error).foregroundStyle(AppColor.destructive)
                     }
                 }
@@ -311,10 +312,10 @@ struct TripFormView: View {
                 Alert(title: Text(info.title), message: Text(info.message))
             }
             .task {
-                // Som i Expo-appen: kilometerfeltet får fokus når en ny tur åpnes
+                // Strekning først: feltet får fokus når en ny tur åpnes
                 if editing == nil {
                     try? await Task.sleep(for: .milliseconds(450))
-                    focus = .kilometers
+                    focus = .route
                 }
             }
         }

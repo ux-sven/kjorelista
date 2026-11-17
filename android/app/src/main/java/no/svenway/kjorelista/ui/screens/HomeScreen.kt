@@ -1,5 +1,6 @@
 package no.svenway.kjorelista.ui.screens
 
+import no.svenway.kjorelista.ui.theme.Brand
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -189,8 +190,8 @@ fun HomeScreen(
                     haptics(Haptic.LIGHT)
                     onAddTrip()
                 },
-                containerColor = colors.primary,
-                contentColor = colors.primaryForeground,
+                containerColor = Brand.gold,
+                contentColor = Brand.onGold,
             ) {
                 Icon(Icons.Filled.Add, contentDescription = stringResource(R.string.trips_add_new))
             }

@@ -26,18 +26,23 @@ struct LoginView: View {
         ScrollView {
             VStack(spacing: 24) {
                 VStack(spacing: 6) {
+                    // Merkevare som i logoen: ikon og ordmerke i gull på lilla gradient
                     Image("Logo")
                         .resizable()
-                        .frame(width: 84, height: 84)
-                        .clipShape(RoundedRectangle(cornerRadius: 19, style: .continuous))
-                        .padding(.bottom, 8)
+                        .frame(width: 96, height: 96)
+                        .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+                        .shadow(color: .black.opacity(0.25), radius: 10, y: 4)
+                        .padding(.bottom, 14)
                         .accessibilityHidden(true)
-                    Text(t.header.title)
-                        .font(.largeTitle.bold())
-                        .foregroundStyle(AppColor.foreground)
+                    Image("Wordmark")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(maxWidth: 260)
+                        .accessibilityLabel(t.header.title)
                         .accessibilityAddTraits(.isHeader)
                     Text(t.header.tagline)
-                        .foregroundStyle(AppColor.mutedForeground)
+                        .foregroundStyle(.white.opacity(0.85))
+                        .padding(.top, 4)
                     if session.isDemo {
                         Text(settings.s.demoMode)
                             .font(.caption.weight(.semibold))
@@ -54,7 +59,7 @@ struct LoginView: View {
 
                 Button(t.footer.privacyPolicy) { showPrivacy = true }
                     .font(.subheadline)
-                    .foregroundStyle(AppColor.mutedForeground)
+                    .foregroundStyle(.white.opacity(0.85))
                     .accessibilityAddTraits(.isLink)
             }
             .padding(20)
@@ -63,7 +68,7 @@ struct LoginView: View {
         }
         .scrollDismissesKeyboard(.interactively)
         .defaultScrollAnchor(.center)
-        .background(AppColor.background.ignoresSafeArea())
+        .background(AppColor.brandGradient.ignoresSafeArea())
         .sheet(isPresented: $showPrivacy) {
             NavigationStack {
                 PrivacyView()

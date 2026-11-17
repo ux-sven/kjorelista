@@ -1,5 +1,9 @@
 package no.svenway.kjorelista.ui.screens
 
+import no.svenway.kjorelista.ui.theme.Brand
+import androidx.compose.ui.semantics.heading
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -169,7 +173,8 @@ fun LoginScreen(store: AppStore, onOpenPrivacy: () -> Unit) {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(MaterialTheme.colorScheme.background)
+            // Merkevare som i logoen: lilla gradient bak innloggingen
+            .background(Brush.linearGradient(listOf(Brand.purpleLight, Brand.purpleDark)))
             .safeDrawingPadding()
             .imePadding(),
         contentAlignment = Alignment.Center,
@@ -187,10 +192,21 @@ fun LoginScreen(store: AppStore, onOpenPrivacy: () -> Unit) {
                 Image(
                     painter = painterResource(R.drawable.app_logo),
                     contentDescription = null,
-                    modifier = Modifier.padding(bottom = 8.dp).size(84.dp).clip(RoundedCornerShape(19.dp)),
+                    modifier = Modifier.padding(bottom = 14.dp).size(96.dp).clip(RoundedCornerShape(22.dp)),
                 )
-                Text(stringResource(R.string.header_title), fontSize = 30.sp, fontWeight = FontWeight.Bold, color = MaterialTheme.colorScheme.onBackground)
-                Text(stringResource(R.string.header_tagline), style = MaterialTheme.typography.bodyLarge, color = colors.mutedForeground)
+                val title = stringResource(R.string.header_title)
+                Image(
+                    painter = painterResource(R.drawable.wordmark_gold),
+                    contentDescription = title,
+                    contentScale = ContentScale.Fit,
+                    modifier = Modifier.widthIn(max = 260.dp).fillMaxWidth().semantics { heading() },
+                )
+                Text(
+                    stringResource(R.string.header_tagline),
+                    style = MaterialTheme.typography.bodyLarge,
+                    color = Color.White.copy(alpha = 0.85f),
+                    modifier = Modifier.padding(top = 4.dp),
+                )
             }
 
             Surface(shape = RoundedCornerShape(20.dp), color = colors.card, modifier = Modifier.fillMaxWidth()) {
@@ -337,7 +353,7 @@ fun LoginScreen(store: AppStore, onOpenPrivacy: () -> Unit) {
             }
 
             TextButton(onClick = onOpenPrivacy) {
-                Text(stringResource(R.string.privacy_title), color = colors.mutedForeground)
+                Text(stringResource(R.string.privacy_title), color = Color.White.copy(alpha = 0.85f))
             }
         }
     }

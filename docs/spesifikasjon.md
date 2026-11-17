@@ -59,7 +59,7 @@ Bruker Kari Nordmann, 5 turer relativt til dagens dato, alt i minnet (`DemoBacke
      Slett krever bekreftelse. Liste-bunn må ikke skjules av FAB.
 3. **Ny / rediger tur**, presentert som modal/sheet (iOS) / fullskjerm-dialog (Android):
    - Avbryt (venstre) og Lagre (høyre) i toppen. Tittel «Ny kjøretur» / «Rediger tur».
-   - Gruppert skjema: **Tur** (Dato, Kilometer med «km»-suffiks, Strekning), **Reisetid** (Varighet – timer:minutter-hjul / TimePicker 24t),
+   - Gruppert skjema: **Tur** (Dato, Strekning med forslag rett under, Kilometer med «km»-suffiks). Strekning får fokus når en ny tur åpnes, **Reisetid** (Varighet – timer:minutter-hjul / TimePicker 24t),
      **Passasjerer** (bryter, ved på: Antall, Km med passasjerer), **Utgifter** (Beløp kr, Beskrivelse), **Kommentar** (flerlinje).
      Rediger-modus: «Slett kjøretur»-knapp nederst.
    - Validering som webskjemaet: dato påkrevd, km > 0, strekning påkrevd, varighet valgt; med passasjerer: antall > 0 og passasjer-km > 0. Komma som desimaltegn godtas.
@@ -83,14 +83,19 @@ Bruker Kari Nordmann, 5 turer relativt til dagens dato, alt i minnet (`DemoBacke
 - Tekster (nb og en): iOS: String Catalog (`ios/Kjorelista/Localization/Localizable.xcstrings`, typede oppslag genereres med `ios/scripts/generate-strings.mjs`);
   Android: `values/strings.xml` + `values-en/strings.xml` (standard nb, så `values` = norsk, `values-en` = engelsk).
   Språkvalg i appen overstyrer systemspråk (iOS: `.environment(\.locale)` + egen oppslag; Android: `AppCompatDelegate.setApplicationLocales`).
-- Farger (lys/mørk): `ios/Kjorelista/Core/Theme.swift` / Android `ui/theme/Theme.kt`. Primær `#3498DB` (mørk `#60A5FA`), suksess `#27AE60`, advarsel `#D68910`, destruktiv `#C0392B`.
+- **Merkevare** (fra logoen, `assets/icon/logo-inspirasjon.png`): lilla gradient `#7E6F91` → `#4E3F66` og gull `#DBC388`.
+  Ordmerket «KJØRELISTA» i gull og lilla ligger i `assets/icon/wordmark-*.png`. Innloggingsskjermen har lilla gradient
+  med app-ikon og ordmerke i gull. «+»-knappen er gull med mørk lilla ikon.
+- Farger (lys/mørk): `ios/Kjorelista/Core/Theme.swift` / Android `ui/theme/Theme.kt`. Primær lilla `#5A4873` i lys modus,
+  gull `#DBC388` i mørk modus. Bakgrunn `#F5F3F8` / `#1C1726`. Suksess `#27AE60`, advarsel `#D68910`, destruktiv `#C0392B`.
 - Haptikk: lett ved navigering, suksess/feil ved lagring/sletting.
 - Tall og datoer formateres med `nb_NO` / `en_GB` (se `Format.swift` / `Format.kt`).
 - Dynamisk tekststørrelse og skjermleser skal fungere.
 
 ## Ikoner
 
-Kildefiler i `assets/icon/` (genereres av `swift assets/icon/generate-icons.swift assets/icon`):
+Bil sett ovenfra i gull på lilla gradient, i stil med logoen. Kildefiler i `assets/icon/`
+(genereres av `swift assets/icon/generate-icons.swift assets/icon`; ordmerket av `extract-wordmark.swift`):
 `icon.png` (1024, iOS AppIcon), `android-icon-foreground.png`, `android-icon-background.png`, `android-icon-monochrome.png`
 (adaptive icon, 108dp-lag), `splash-icon.png`. Android trenger også `ic_launcher` i mipmap-tetthetene (skaler fra 1024).
 
