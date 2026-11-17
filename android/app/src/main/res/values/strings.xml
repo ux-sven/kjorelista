@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Norsk bokmål (standard). Holdes i takt med ios/Kjorelista/Localization/Localizable.xcstrings. -->
+<resources>
+    <string name="app_name" translatable="false">Kjørelista</string>
+    <string name="header_title">Kjørelista</string>
+    <string name="header_tagline">En enklere digital kjørebok</string>
+
+    <!-- Autentisering -->
+    <string name="auth_sign_in">Logg inn</string>
+    <string name="auth_sign_up">Opprett konto</string>
+    <string name="auth_sign_out">Logg ut</string>
+    <string name="auth_email">E-post</string>
+    <string name="auth_email_placeholder">din@epost.no</string>
+    <string name="auth_password">Passord</string>
+    <string name="auth_first_name">Fornavn</string>
+    <string name="auth_last_name">Etternavn</string>
+    <string name="auth_confirm_password">Bekreft passord</string>
+    <string name="auth_forgot_password">Glemt passord?</string>
+    <string name="auth_invalid_credentials">Ugyldig e-post eller passord</string>
+    <string name="auth_email_required">E-post er påkrevd</string>
+    <string name="auth_password_required">Passord er påkrevd</string>
+    <string name="auth_password_too_short">Passord må være minst 6 tegn</string>
+    <string name="auth_passwords_do_not_match">Passordene matcher ikke</string>
+    <string name="auth_first_name_required">Fornavn er påkrevd</string>
+    <string name="auth_last_name_required">Etternavn er påkrevd</string>
+    <string name="auth_sign_out_confirmation">Er du sikker på at du vil logge ut? Sesjonen din vil huskes slik at du kan logge inn igjen senere.</string>
+    <string name="auth_forgot_password_title">Glemt passord?</string>
+    <string name="auth_forgot_password_description">Skriv inn e-postadressen din og vi sender deg en link for å tilbakestille passordet.</string>
+    <string name="auth_send_reset_email">Send tilbakestillingslink</string>
+    <string name="auth_reset_email_sent">E-post sendt! Sjekk innboksen din for tilbakestillingslink.</string>
+    <string name="auth_back_to_login">Tilbake til innlogging</string>
+    <string name="auth_confirm_email">Sjekk e-posten din for å bekrefte kontoen. Du kan deretter logge inn.</string>
+    <string name="auth_show_password">Vis passord</string>
+    <string name="auth_hide_password">Skjul passord</string>
+
+    <!-- Kjøreturer -->
+    <string name="trips_add_new">Legg til ny kjøretur</string>
+    <string name="trips_edit">Rediger kjøretur</string>
+    <string name="trips_delete">Slett</string>
+    <string name="trips_confirm_delete">Slett kjøretur</string>
+    <string name="trips_delete_message">Er du sikker på at du vil slette denne kjøreturen? Denne handlingen kan ikke angres.</string>
+    <string name="trips_cancel">Avbryt</string>
+    <string name="trips_date">Dato</string>
+    <string name="trips_kilometers">Kilometer</string>
+    <string name="trips_route">Strekning</string>
+    <string name="trips_expense_description">Beskrivelse av utgifter</string>
+    <string name="trips_expense_placeholder">f.eks. Bompenger, parkering</string>
+    <string name="trips_comment">Kommentar</string>
+    <string name="trips_comment_placeholder">Valgfri kommentar til kjøreturen...</string>
+    <string name="trips_kilometers_required">Kilometer må være et positivt tall</string>
+    <string name="trips_route_required">Strekning er påkrevd</string>
+    <string name="trips_hours_required">Timer må være 0 eller høyere</string>
+    <string name="trips_passenger_count_required">Antall passasjerer må være et positivt tall</string>
+    <string name="trips_passenger_kilometers_required">Passasjer-kilometer må være et positivt tall</string>
+    <string name="trips_save_error">Kunne ikke legge til kjøretur</string>
+    <string name="trips_update_error">Kunne ikke oppdatere kjøretur</string>
+    <string name="trips_delete_error">Kunne ikke slette kjøretur</string>
+    <string name="trips_this_month">Kjøreturer denne måneden</string>
+    <string name="trips_tap_to_edit">Trykk for å redigere</string>
+    <string name="trips_had_passengers">Hadde passasjerer</string>
+    <string name="trips_passengers_description">Aktiver hvis du hadde passasjerer med på turen</string>
+    <plurals name="trip_count">
+        <item quantity="one">%d tur</item>
+        <item quantity="other">%d turer</item>
+    </plurals>
+
+    <!-- Månedsoppsummering -->
+    <string name="summary_total_driven">Total kjørt</string>
+    <string name="summary_total_drive_time">Total kjøretid</string>
+    <string name="summary_total_driven_in_year">Totalt kjørt i %1$d</string>
+    <string name="summary_with_passengers">Med passasjerer</string>
+    <string name="summary_expenses">Utgifter</string>
+    <string name="summary_no_trips_this_month">Ingen turer registrert i %1$s</string>
+    <string name="summary_add_first_trip">Legg til din første kjøretur for å se statistikk</string>
+    <string name="summary_export">Eksporter</string>
+
+    <!-- Eksport -->
+    <string name="export_title">Eksporter Kjørerapport</string>
+    <string name="export_pdf">PDF</string>
+    <string name="export_csv">CSV-fil</string>
+    <string name="export_csv_description">For Excel og andre regneark</string>
+    <string name="export_no_trips">Ingen kjøreturer å eksportere for denne måneden.</string>
+
+    <string-array name="months">
+        <item>Januar</item>
+        <item>Februar</item>
+        <item>Mars</item>
+        <item>April</item>
+        <item>Mai</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>August</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+
+    <!-- Generelt -->
+    <string name="general_finish">Ferdig</string>
+    <string name="general_language">Språk</string>
+    <string name="general_ok">OK</string>
+    <string name="general_back">Tilbake</string>
+    <string name="general_loading">Laster...</string>
+    <string name="navigation_previous_month">Forrige måned</string>
+    <string name="navigation_next_month">Neste måned</string>
+
+    <!-- App-spesifikke tekster (appStrings.ts) -->
+    <string name="settings">Innstillinger</string>
+    <string name="today">I dag</string>
+    <string name="save">Lagre</string>
+    <string name="duplicate">Dupliser</string>
+    <string name="new_trip_title">Ny kjøretur</string>
+    <string name="edit_trip_title">Rediger tur</string>
+    <string name="section_trip">Tur</string>
+    <string name="section_time">Reisetid</string>
+    <string name="section_passengers">Passasjerer</string>
+    <string name="section_expenses">Utgifter</string>
+    <string name="section_comment">Kommentar</string>
+    <string name="amount">Beløp</string>
+    <string name="count">Antall</string>
+    <string name="km_with_passengers">Km med passasjerer</string>
+    <string name="duration">Varighet</string>
+    <string name="choose">Velg</string>
+    <string name="hours_short">t</string>
+    <string name="minutes_short">min</string>
+    <string name="route_hint">Fra – til, f.eks. Oslo – Drammen</string>
+    <string name="time_footer">Hvor lang tid turen tok.</string>
+    <string name="error_title">Noe gikk galt</string>
+    <string name="swipe_month_hint">Sveip for å bytte måned</string>
+    <string name="per_trip">per tur</string>
+    <string name="hours_word">timer</string>
+    <string name="routes_word">ruter</string>
+    <string name="this_year">i år</string>
+    <string name="account">Konto</string>
+    <string name="appearance">Utseende</string>
+    <string name="theme_system">Følg systemet</string>
+    <string name="theme_light">Lys</string>
+    <string name="theme_dark">Mørk</string>
+    <string name="delete_account">Slett konto</string>
+    <string name="delete_account_message">Kontoen din og alle registrerte kjøreturer slettes permanent. Dette kan ikke angres. Gjelder også webversjonen.</string>
+    <string name="delete_account_error">Kunne ikke slette kontoen</string>
+    <string name="delete_account_footer">Sletter kontoen og alle kjøreturer permanent, også i webversjonen.</string>
+    <string name="version">Versjon</string>
+    <string name="demo_mode">Demomodus</string>
+
+    <!-- Personvern -->
+    <string name="privacy_title">Personvernserklæring</string>
+    <string name="privacy_last_updated">Sist oppdatert: 8. januar 2025</string>
+    <string name="privacy_introduction">Denne personvernserklæringen beskriver hvordan Kjørelista (\"vi\", \"oss\", \"vår\") samler inn, bruker og beskytter dine personopplysninger når du bruker vår kjørelogg-tjeneste.</string>
+    <string name="privacy_data_controller">Behandlingsansvarlig</string>
+    <string name="privacy_what_we_collect">Hvilke opplysninger vi samler inn</string>
+    <string name="privacy_what_we_collect_content">Vi samler inn følgende typer opplysninger:\n\n• Kontoinformasjon: E-postadresse, fornavn og etternavn\n• Kjøredata: Datoer, distanser, ruter, reisetid, passasjerinformasjon og kommentarer\n• Teknisk informasjon: IP-adresse, nettlesertype og bruksmønster for å forbedre tjenesten\n• Cookies og lignende teknologier for å huske dine preferanser</string>
+    <string name="privacy_how_we_use">Hvordan vi bruker dine opplysninger</string>
+    <string name="privacy_how_we_use_content">Vi bruker dine opplysninger til å:\n\n• Tilby og drifte kjørelogg-tjenesten\n• Lagre og organisere dine kjøredata\n• Generere rapporter og eksporter\n• Gi kundestøtte og teknisk support\n• Forbedre og utvikle tjenesten\n• Kommunisere viktige oppdateringer om tjenesten</string>
+    <string name="privacy_storage">Datalagring og oppbevaring</string>
+    <string name="privacy_storage_content">Dine data lagres sikkert hos Supabase (cloud-modus) eller lokalt i din nettleser (demo-modus). I cloud-modus lagres data kryptert og sikres med moderne sikkerhetsprotokoller. Vi oppbevarer dine data så lenge du har en aktiv konto, eller som påkrevd av gjeldende lovgivning.</string>
+    <string name="privacy_sharing">Deling av data</string>
+    <string name="privacy_sharing_content">Vi deler ikke dine personopplysninger med tredjeparter, bortsett fra:\n\n• Supabase (vår leverandør av skytjenester) for datalagring\n• Når det er påkrevd av lov eller myndigheter\n• For å beskytte våre rettigheter eller andres sikkerhet\n\nVi selger aldri dine personopplysninger.</string>
+    <string name="privacy_user_rights">Dine rettigheter</string>
+    <string name="privacy_user_rights_content">Du har rett til å:\n\n• Få tilgang til dine personopplysninger\n• Rette feil eller mangelfulle opplysninger\n• Slette din konto og alle tilknyttede data\n• Eksportere dine data i et maskinlesbart format\n• Trekke tilbake samtykke der det er relevant\n• Klage til Datatilsynet</string>
+    <string name="privacy_security">Datasikkerhet</string>
+    <string name="privacy_security_content">Vi implementerer passende tekniske og organisatoriske tiltak for å beskytte dine personopplysninger mot uautorisert tilgang, endring, avsløring eller ødeleggelse. Dette inkluderer kryptering, sikre servere og regelmessige sikkerhetsoppdateringer.</string>
+    <string name="privacy_cookies">Cookies og lokal lagring</string>
+    <string name="privacy_cookies_content">Vi bruker cookies og lokal lagring for å:\n\n• Huske dine innloggingsopplysninger\n• Lagre språk- og temainnstillinger\n• Forbedre ytelsen til applikasjonen\n• I demo-modus: lagre alle data lokalt i nettleseren\n\nDu kan administrere cookie-innstillinger i din nettleser.</string>
+    <string name="privacy_changes">Endringer i personvernserklæringen</string>
+    <string name="privacy_changes_content">Vi kan oppdatere denne personvernserklæringen fra tid til annen. Vesentlige endringer vil bli kommunisert via e-post eller en merknad i applikasjonen. Vi oppfordrer deg til å lese denne erklæringen regelmessig.</string>
+    <string name="privacy_contact">Kontakt oss</string>
+    <string name="privacy_contact_content">Hvis du har spørsmål om denne personvernserklæringen eller ønsker å utøve dine rettigheter, kan du kontakte oss på:</string>
+    <string name="settings_trip_entry">Registrering av turer</string>
+    <string name="settings_route_suggestions">Forslag til strekning</string>
+    <string name="settings_route_suggestions_footer">Viser strekninger du har kjørt før mens du skriver.</string>
+    <string name="settings_autofill_km">Fyll inn kilometer automatisk</string>
+    <string name="settings_autofill_km_footer">Når du velger et forslag, fylles kilometer inn fra forrige tur på samme strekning.</string>
+</resources>
