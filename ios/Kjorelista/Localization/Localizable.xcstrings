@@ -1,4120 +1,4172 @@
 {
-  "sourceLanguage": "nb",
-  "strings": {
-    "app.account": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Konto"
+  "sourceLanguage" : "nb",
+  "strings" : {
+    "%@ · %@ %@%@" : {
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$@ %3$@%4$@"
           }
+        }
+      }
+    },
+    "%@ %@" : {
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@"
+          }
+        }
+      }
+    },
+    "%@ km" : {
+
+    },
+    "%@ km · %@" : {
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ km · %2$@"
+          }
+        }
+      }
+    },
+    "%@: %@" : {
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@: %2$@"
+          }
+        }
+      }
+    },
+    "app.account" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Account"
+          }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Account"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konto"
           }
         }
       }
     },
-    "app.amount": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Beløp"
+    "app.amount" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Amount"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Amount"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beløp"
           }
         }
       }
     },
-    "app.appearance": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Utseende"
+    "app.appearance" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appearance"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Appearance"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utseende"
           }
         }
       }
     },
-    "app.autofillKilometers": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fyll inn kilometer automatisk"
+    "app.autofillKilometers" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fill in kilometres automatically"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fill in kilometres automatically"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fyll inn kilometer automatisk"
           }
         }
       }
     },
-    "app.autofillKilometersFooter": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Når du velger et forslag, fylles kilometer inn fra forrige tur på samme strekning."
+    "app.autofillKilometersFooter" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When you pick a suggestion, kilometres are filled in from your last trip on that route."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "When you pick a suggestion, kilometres are filled in from your last trip on that route."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du velger et forslag, fylles kilometer inn fra forrige tur på samme strekning."
           }
         }
       }
     },
-    "app.checkEmail": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sjekk e-posten din for å bekrefte kontoen. Du kan deretter logge inn."
+    "app.checkEmail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check your email to confirm your account, then sign in."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Check your email to confirm your account, then sign in."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sjekk e-posten din for å bekrefte kontoen. Du kan deretter logge inn."
           }
         }
       }
     },
-    "app.choose": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Velg"
+    "app.choose" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Choose"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg"
           }
         }
       }
     },
-    "app.count": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Antall"
+    "app.count" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Number"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Number"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antall"
           }
         }
       }
     },
-    "app.deleteAccount": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Slett konto"
+    "app.deleteAccount" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete account"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Delete account"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett konto"
           }
         }
       }
     },
-    "app.deleteAccountError": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kunne ikke slette kontoen"
+    "app.deleteAccountError" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not delete account"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Could not delete account"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke slette kontoen"
           }
         }
       }
     },
-    "app.deleteAccountFooter": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sletter kontoen og alle kjøreturer permanent, også i webversjonen."
+    "app.deleteAccountFooter" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permanently deletes your account and all trips, including on the web."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Permanently deletes your account and all trips, including on the web."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sletter kontoen og alle kjøreturer permanent, også i webversjonen."
           }
         }
       }
     },
-    "app.deleteAccountMessage": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kontoen din og alle registrerte kjøreturer slettes permanent. Dette kan ikke angres. Gjelder også webversjonen."
+    "app.deleteAccountMessage" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your account and all recorded trips will be permanently deleted. This cannot be undone and also applies to the web version."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your account and all recorded trips will be permanently deleted. This cannot be undone and also applies to the web version."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontoen din og alle registrerte kjøreturer slettes permanent. Dette kan ikke angres. Gjelder også webversjonen."
           }
         }
       }
     },
-    "app.demoMode": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Demomodus"
+    "app.demoMode" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Demo mode"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Demo mode"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Demomodus"
           }
         }
       }
     },
-    "app.description": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Beskrivelse"
+    "app.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Description"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Description"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beskrivelse"
           }
         }
       }
     },
-    "app.duplicate": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dupliser"
+    "app.duplicate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duplicate"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Duplicate"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dupliser"
           }
         }
       }
     },
-    "app.duration": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Varighet"
+    "app.duration" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duration"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Duration"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varighet"
           }
         }
       }
     },
-    "app.editTripTitle": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rediger tur"
+    "app.editTripTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Edit trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rediger tur"
           }
         }
       }
     },
-    "app.emailPlaceholder": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "din@epost.no"
+    "app.emailPlaceholder" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "you@example.com"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "you@example.com"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "din@epost.no"
           }
         }
       }
     },
-    "app.errorTitle": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Noe gikk galt"
+    "app.errorTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something went wrong"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Something went wrong"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noe gikk galt"
           }
         }
       }
     },
-    "app.hidePassword": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Skjul passord"
+    "app.hidePassword" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hide password"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hide password"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjul passord"
           }
         }
       }
     },
-    "app.hoursShort": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "t"
+    "app.hoursShort" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "h"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "h"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "t"
           }
         }
       }
     },
-    "app.hoursWord": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "timer"
+    "app.hoursWord" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hours"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "hours"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "timer"
           }
         }
       }
     },
-    "app.kmWithPassengers": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Km med passasjerer"
+    "app.kmWithPassengers" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Km with passengers"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Km with passengers"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Km med passasjerer"
           }
         }
       }
     },
-    "app.minutesShort": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "min"
+    "app.minutesShort" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "min"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min"
           }
         }
       }
     },
-    "app.newTripTitle": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ny kjøretur"
+    "app.newTripTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "New trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ny kjøretur"
           }
         }
       }
     },
-    "app.notSignedIn": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ikke innlogget"
+    "app.notSignedIn" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not signed in"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Not signed in"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikke innlogget"
           }
         }
       }
     },
-    "app.over1000km": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Over 1000 km"
+    "app.over1000km" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Over 1000 km"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Over 1000 km"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Over 1000 km"
           }
         }
       }
     },
-    "app.pdf": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "PDF"
+    "app.pdf" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PDF"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "PDF"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PDF"
           }
         }
       }
     },
-    "app.perTrip": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "per tur"
+    "app.perTrip" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "per trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "per trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "per tur"
           }
         }
       }
     },
-    "app.routeHint": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fra – til, f.eks. Oslo – Drammen"
+    "app.routeHint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "From – to, e.g. Oslo – Drammen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "From – to, e.g. Oslo – Drammen"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fra – til, f.eks. Oslo – Drammen"
           }
         }
       }
     },
-    "app.routeSuggestions": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Forslag til strekning"
+    "app.routeSuggestions" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Route suggestions"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Route suggestions"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forslag til strekning"
           }
         }
       }
     },
-    "app.routeSuggestionsFooter": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Viser strekninger du har kjørt før mens du skriver."
+    "app.routeSuggestionsFooter" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shows routes you have driven before while you type."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Shows routes you have driven before while you type."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viser strekninger du har kjørt før mens du skriver."
           }
         }
       }
     },
-    "app.routesWord": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ruter"
+    "app.routesWord" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "routes"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "routes"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ruter"
           }
         }
       }
     },
-    "app.save": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lagre"
+    "app.save" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Save"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre"
           }
         }
       }
     },
-    "app.sectionComment": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kommentar"
+    "app.sectionComment" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comment"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Comment"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kommentar"
           }
         }
       }
     },
-    "app.sectionExpenses": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Utgifter"
+    "app.sectionExpenses" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expenses"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Expenses"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utgifter"
           }
         }
       }
     },
-    "app.sectionPassengers": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Passasjerer"
+    "app.sectionPassengers" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passengers"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Passengers"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passasjerer"
           }
         }
       }
     },
-    "app.sectionTime": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reisetid"
+    "app.sectionTime" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Travel time"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Travel time"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reisetid"
           }
         }
       }
     },
-    "app.sectionTrip": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tur"
+    "app.sectionTrip" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tur"
           }
         }
       }
     },
-    "app.settings": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Innstillinger"
+    "app.settings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Settings"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Innstillinger"
           }
         }
       }
     },
-    "app.showPassword": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vis passord"
+    "app.showPassword" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show password"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Show password"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis passord"
           }
         }
       }
     },
-    "app.swipeMonthHint": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sveip for å bytte måned"
+    "app.swipeMonthHint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swipe to change month"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Swipe to change month"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sveip for å bytte måned"
           }
         }
       }
     },
-    "app.themeDark": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mørk"
+    "app.themeDark" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dark"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dark"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mørk"
           }
         }
       }
     },
-    "app.themeLight": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lys"
+    "app.themeLight" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Light"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Light"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lys"
           }
         }
       }
     },
-    "app.themeSystem": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Følg systemet"
+    "app.themeSystem" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Match system"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Match system"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Følg systemet"
           }
         }
       }
     },
-    "app.thisYear": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "i år"
+    "app.thisYear" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "this year"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "this year"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "i år"
           }
         }
       }
     },
-    "app.timeFooter": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hvor lang tid turen tok."
+    "app.timeFooter" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How long the trip took."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "How long the trip took."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvor lang tid turen tok."
           }
         }
       }
     },
-    "app.today": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I dag"
+    "app.today" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Today"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Today"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag"
           }
         }
       }
     },
-    "app.tripActions": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kjøretur"
+    "app.tripActions" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kjøretur"
           }
         }
       }
     },
-    "app.tripEntry": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Registrering av turer"
+    "app.tripEntry" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trip entry"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Trip entry"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Registrering av turer"
           }
         }
       }
     },
-    "app.version": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Versjon"
+    "app.version" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Version"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versjon"
           }
         }
       }
     },
-    "auth.alreadyHaveAccount": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Har du allerede en konto?"
+    "auth.alreadyHaveAccount" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Already have an account?"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Already have an account?"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Har du allerede en konto?"
           }
         }
       }
     },
-    "auth.backToLogin": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tilbake til innlogging"
+    "auth.backToLogin" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back to login"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Back to login"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilbake til innlogging"
           }
         }
       }
     },
-    "auth.confirmPassword": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bekreft passord"
+    "auth.confirmPassword" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm Password"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Confirm Password"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekreft passord"
           }
         }
       }
     },
-    "auth.createAccount": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Opprett ny konto"
+    "auth.createAccount" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create New Account"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Create New Account"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opprett ny konto"
           }
         }
       }
     },
-    "auth.email": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "E-post"
+    "auth.email" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Email"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-post"
           }
         }
       }
     },
-    "auth.emailRequired": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "E-post er påkrevd"
+    "auth.emailRequired" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email is required"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Email is required"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-post er påkrevd"
           }
         }
       }
     },
-    "auth.enterEmail": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Skriv inn e-postadressen din"
+    "auth.enterEmail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter your email address"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Enter your email address"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv inn e-postadressen din"
           }
         }
       }
     },
-    "auth.firstName": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fornavn"
+    "auth.firstName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First Name"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "First Name"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fornavn"
           }
         }
       }
     },
-    "auth.firstNameRequired": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fornavn er påkrevd"
+    "auth.firstNameRequired" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First name is required"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "First name is required"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fornavn er påkrevd"
           }
         }
       }
     },
-    "auth.forgotPassword": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Glemt passord?"
+    "auth.forgotPassword" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forgot Password?"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Forgot Password?"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glemt passord?"
           }
         }
       }
     },
-    "auth.forgotPasswordDescription": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Skriv inn e-postadressen din og vi sender deg en link for å tilbakestille passordet."
+    "auth.forgotPasswordDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter your email address and we'll send you a link to reset your password."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Enter your email address and we'll send you a link to reset your password."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv inn e-postadressen din og vi sender deg en link for å tilbakestille passordet."
           }
         }
       }
     },
-    "auth.forgotPasswordTitle": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Glemt passord?"
+    "auth.forgotPasswordTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forgot password?"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Forgot password?"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glemt passord?"
           }
         }
       }
     },
-    "auth.invalidCredentials": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ugyldig e-post eller passord"
+    "auth.invalidCredentials" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid email or password"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Invalid email or password"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ugyldig e-post eller passord"
           }
         }
       }
     },
-    "auth.lastName": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Etternavn"
+    "auth.lastName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last Name"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Last Name"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etternavn"
           }
         }
       }
     },
-    "auth.lastNameRequired": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Etternavn er påkrevd"
+    "auth.lastNameRequired" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last name is required"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Last name is required"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etternavn er påkrevd"
           }
         }
       }
     },
-    "auth.noAccountYet": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Har du ikke en konto ennå?"
+    "auth.noAccountYet" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don't have an account yet?"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Don't have an account yet?"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Har du ikke en konto ennå?"
           }
         }
       }
     },
-    "auth.password": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Passord"
+    "auth.password" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Password"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passord"
           }
         }
       }
     },
-    "auth.passwordRequired": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Passord er påkrevd"
+    "auth.passwordRequired" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password is required"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Password is required"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passord er påkrevd"
           }
         }
       }
     },
-    "auth.passwordTooShort": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Passord må være minst 6 tegn"
+    "auth.passwordsDoNotMatch" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passwords do not match"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Password must be at least 6 characters"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passordene matcher ikke"
           }
         }
       }
     },
-    "auth.passwordsDoNotMatch": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Passordene matcher ikke"
+    "auth.passwordTooShort" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password must be at least 6 characters"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Passwords do not match"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passord må være minst 6 tegn"
           }
         }
       }
     },
-    "auth.resetEmailSent": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "E-post sendt! Sjekk innboksen din for tilbakestillingslink."
+    "auth.resetEmailSent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email sent! Check your inbox for the reset link."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Email sent! Check your inbox for the reset link."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-post sendt! Sjekk innboksen din for tilbakestillingslink."
           }
         }
       }
     },
-    "auth.resetPassword": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tilbakestill passord"
+    "auth.resetPassword" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset password"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reset password"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilbakestill passord"
           }
         }
       }
     },
-    "auth.sendResetEmail": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Send tilbakestillingslink"
+    "auth.sendResetEmail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send reset link"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Send reset link"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send tilbakestillingslink"
           }
         }
       }
     },
-    "auth.signIn": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Logg inn"
+    "auth.signIn" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign In"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sign In"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logg inn"
           }
         }
       }
     },
-    "auth.signInSuccess": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Velkommen!"
+    "auth.signInSuccess" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome!"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Welcome!"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velkommen!"
           }
         }
       }
     },
-    "auth.signOut": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Logg ut"
+    "auth.signOut" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign Out"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sign Out"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logg ut"
           }
         }
       }
     },
-    "auth.signOutConfirmation": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Er du sikker på at du vil logge ut? Sesjonen din vil huskes slik at du kan logge inn igjen senere."
+    "auth.signOutConfirmation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are you sure you want to sign out? Your session will be remembered so you can sign in again later."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Are you sure you want to sign out? Your session will be remembered so you can sign in again later."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er du sikker på at du vil logge ut? Sesjonen din vil huskes slik at du kan logge inn igjen senere."
           }
         }
       }
     },
-    "auth.signOutSuccess": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Logget ut"
+    "auth.signOutSuccess" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signed out"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Signed out"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logget ut"
           }
         }
       }
     },
-    "auth.signUp": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Opprett konto"
+    "auth.signUp" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign Up"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sign Up"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opprett konto"
           }
         }
       }
     },
-    "auth.signUpSuccess": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Konto opprettet!"
+    "auth.signUpSuccess" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Account created!"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Account created!"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konto opprettet!"
           }
         }
       }
     },
-    "auth.welcomeBack": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Velkommen tilbake"
+    "auth.welcomeBack" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome Back"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Welcome Back"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velkommen tilbake"
           }
         }
       }
     },
-    "export.csv": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "CSV-fil"
+    "export.csv" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CSV File"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "CSV File"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CSV-fil"
           }
         }
       }
     },
-    "export.csvDescription": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "For Excel og andre regneark"
+    "export.csvDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For Excel and other spreadsheets"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "For Excel and other spreadsheets"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For Excel og andre regneark"
           }
         }
       }
     },
-    "export.description": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eksporter kjørerapporten for {month} {year} i ønsket format."
+    "export.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Export the driving report for {month} {year} in your preferred format."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Export the driving report for {month} {year} in your preferred format."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksporter kjørerapporten for {month} {year} i ønsket format."
           }
         }
       }
     },
-    "export.download": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Last ned"
+    "export.download" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Download"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last ned"
           }
         }
       }
     },
-    "export.exporting": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eksporterer..."
+    "export.exporting" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exporting..."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Exporting..."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksporterer..."
           }
         }
       }
     },
-    "export.html": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "HTML-fil"
+    "export.html" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HTML File"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "HTML File"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HTML-fil"
           }
         }
       }
     },
-    "export.htmlDescription": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nedlastbar HTML-rapport for arkivering"
+    "export.htmlDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Downloadable HTML report for archiving"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Downloadable HTML report for archiving"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedlastbar HTML-rapport for arkivering"
           }
         }
       }
     },
-    "export.month": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Måned"
+    "export.month" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Month"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Month"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Måned"
           }
         }
       }
     },
-    "export.noTripsToExport": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ingen kjøreturer å eksportere for denne måneden."
+    "export.noTripsToExport" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No trips to export for this month."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No trips to export for this month."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen kjøreturer å eksportere for denne måneden."
           }
         }
       }
     },
-    "export.numberOfTrips": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Antall turer"
+    "export.numberOfTrips" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Number of trips"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Number of trips"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antall turer"
           }
         }
       }
     },
-    "export.pdf": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "PDF / Print"
+    "export.pdf" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PDF / Print"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "PDF / Print"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PDF / Print"
           }
         }
       }
     },
-    "export.pdfDescription": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Åpner utskriftsvindu med formatert rapport"
+    "export.pdfDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opens print window with formatted report"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Opens print window with formatted report"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åpner utskriftsvindu med formatert rapport"
           }
         }
       }
     },
-    "export.selectFormat": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Velg eksportformat:"
+    "export.selectFormat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select export format:"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Select export format:"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg eksportformat:"
           }
         }
       }
     },
-    "export.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eksporter Kjørerapport"
+    "export.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Export Driving Report"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Export Driving Report"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksporter Kjørerapport"
           }
         }
       }
     },
-    "export.totalKm": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total km"
+    "export.totalKm" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total km"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total km"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total km"
           }
         }
       }
     },
-    "footer.contactUs": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kontakt oss"
+    "footer.contactUs" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact Us"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Contact Us"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt oss"
           }
         }
       }
     },
-    "footer.copyright": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "© 2025 Kjørelista av svenway. Alle rettigheter forbeholdt."
+    "footer.copyright" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2025 Drive Log by svenway. All rights reserved."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "© 2025 Drive Log by svenway. All rights reserved."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2025 Kjørelista av svenway. Alle rettigheter forbeholdt."
           }
         }
       }
     },
-    "footer.footerNavigation": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bunnmeny navigasjon"
+    "footer.footerNavigation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Footer navigation"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Footer navigation"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bunnmeny navigasjon"
           }
         }
       }
     },
-    "footer.privacyPolicy": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Personvernserklæring"
+    "footer.privacyPolicy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy Policy"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Privacy Policy"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personvernserklæring"
           }
         }
       }
     },
-    "general.back": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tilbake"
+    "general.back" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Back"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilbake"
           }
         }
       }
     },
-    "general.close": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lukk"
+    "general.close" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Close"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukk"
           }
         }
       }
     },
-    "general.cloud": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cloud"
+    "general.cloud" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cloud"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cloud"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cloud"
           }
         }
       }
     },
-    "general.darkMode": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bytt til mørk modus"
+    "general.darkMode" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to dark mode"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Switch to dark mode"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bytt til mørk modus"
           }
         }
       }
     },
-    "general.dataStoredLocally": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Data lagres lokalt i nettleseren i demo-modus"
+    "general.dataStoredLocally" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data is stored locally in browser in demo mode"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Data is stored locally in browser in demo mode"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data lagres lokalt i nettleseren i demo-modus"
           }
         }
       }
     },
-    "general.error": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Feil"
+    "general.error" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Error"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feil"
           }
         }
       }
     },
-    "general.finish": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ferdig"
+    "general.finish" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finish"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Finish"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferdig"
           }
         }
       }
     },
-    "general.info": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Info"
+    "general.info" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Info"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
           }
         }
       }
     },
-    "general.language": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Språk"
+    "general.language" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Language"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Språk"
           }
         }
       }
     },
-    "general.lightMode": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bytt til lys modus"
+    "general.lightMode" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to light mode"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Switch to light mode"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bytt til lys modus"
           }
         }
       }
     },
-    "general.loading": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Laster..."
+    "general.loading" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading..."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Loading..."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laster..."
           }
         }
       }
     },
-    "general.local": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lokal"
+    "general.local" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Local"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Local"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lokal"
           }
         }
       }
     },
-    "general.next": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Neste"
+    "general.next" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Next"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neste"
           }
         }
       }
     },
-    "general.no": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nei"
+    "general.no" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nei"
           }
         }
       }
     },
-    "general.optional": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Valgfritt"
+    "general.optional" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optional"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Optional"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valgfritt"
           }
         }
       }
     },
-    "general.previous": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Forrige"
+    "general.previous" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Previous"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Previous"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forrige"
           }
         }
       }
     },
-    "general.required": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Påkrevd"
+    "general.required" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Required"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Required"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Påkrevd"
           }
         }
       }
     },
-    "general.skipToMain": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hopp til hovedinnhold"
+    "general.skipToMain" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip to main content"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Skip to main content"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hopp til hovedinnhold"
           }
         }
       }
     },
-    "general.success": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suksess"
+    "general.success" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Success"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Success"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suksess"
           }
         }
       }
     },
-    "general.syncing": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Synkroniserer..."
+    "general.syncing" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Syncing..."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Syncing..."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synkroniserer..."
           }
         }
       }
     },
-    "general.warning": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Advarsel"
+    "general.warning" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warning"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Warning"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Advarsel"
           }
         }
       }
     },
-    "general.yes": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ja"
+    "general.yes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yes"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yes"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja"
           }
         }
       }
     },
-    "header.subtitle": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "av svenway"
+    "header.subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "by svenway"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "by svenway"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "av svenway"
           }
         }
       }
     },
-    "header.tagline": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "En enklere digital kjørebok"
+    "header.tagline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A simpler digital driving log"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "A simpler digital driving log"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En enklere digital kjørebok"
           }
         }
       }
     },
-    "header.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kjørelista"
+    "header.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drive Log"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Drive Log"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kjørelista"
           }
         }
       }
     },
-    "months.0": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Januar"
+    "km" : {
+
+    },
+    "kr" : {
+
+    },
+    "months.0" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "January"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "January"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Januar"
           }
         }
       }
     },
-    "months.1": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Februar"
+    "months.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "February"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "February"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Februar"
           }
         }
       }
     },
-    "months.10": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "November"
+    "months.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "March"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "November"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mars"
           }
         }
       }
     },
-    "months.11": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Desember"
+    "months.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "April"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "December"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "April"
           }
         }
       }
     },
-    "months.2": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mars"
+    "months.4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "May"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "March"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mai"
           }
         }
       }
     },
-    "months.3": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "April"
+    "months.5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "June"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "April"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juni"
           }
         }
       }
     },
-    "months.4": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mai"
+    "months.6" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "July"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juli"
           }
         }
       }
     },
-    "months.5": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Juni"
+    "months.7" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "August"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "June"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "August"
           }
         }
       }
     },
-    "months.6": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Juli"
+    "months.8" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "September"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "July"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "September"
           }
         }
       }
     },
-    "months.7": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "August"
+    "months.9" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "October"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "August"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oktober"
           }
         }
       }
     },
-    "months.8": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "September"
+    "months.10" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "November"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "September"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "November"
           }
         }
       }
     },
-    "months.9": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Oktober"
+    "months.11" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "December"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "October"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desember"
           }
         }
       }
     },
-    "navigation.monthNavigation": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Månedsnavigasjon"
+    "navigation.monthNavigation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Month navigation"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Month navigation"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Månedsnavigasjon"
           }
         }
       }
     },
-    "navigation.nextMonth": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Neste måned"
+    "navigation.nextMonth" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next month"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Next month"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neste måned"
           }
         }
       }
     },
-    "navigation.previousMonth": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Forrige måned"
+    "navigation.previousMonth" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Previous month"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Previous month"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forrige måned"
           }
         }
       }
     },
-    "privacy.changes": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Endringer i personvernserklæringen"
+    "privacy.changes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Changes to this privacy policy"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Changes to this privacy policy"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Endringer i personvernserklæringen"
           }
         }
       }
     },
-    "privacy.changesContent": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vi kan oppdatere denne personvernserklæringen fra tid til annen. Vesentlige endringer vil bli kommunisert via e-post eller en merknad i applikasjonen. Vi oppfordrer deg til å lese denne erklæringen regelmessig."
+    "privacy.changesContent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We may update this privacy policy from time to time. Significant changes will be communicated via email or a notice in the application. We encourage you to read this policy regularly."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "We may update this privacy policy from time to time. Significant changes will be communicated via email or a notice in the application. We encourage you to read this policy regularly."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi kan oppdatere denne personvernserklæringen fra tid til annen. Vesentlige endringer vil bli kommunisert via e-post eller en merknad i applikasjonen. Vi oppfordrer deg til å lese denne erklæringen regelmessig."
           }
         }
       }
     },
-    "privacy.close": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lukk"
+    "privacy.close" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Close"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukk"
           }
         }
       }
     },
-    "privacy.contact": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kontakt oss"
+    "privacy.contact" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact us"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Contact us"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt oss"
           }
         }
       }
     },
-    "privacy.contactContent": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hvis du har spørsmål om denne personvernserklæringen eller ønsker å utøve dine rettigheter, kan du kontakte oss på:"
+    "privacy.contactContent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you have questions about this privacy policy or wish to exercise your rights, you can contact us at:"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "If you have questions about this privacy policy or wish to exercise your rights, you can contact us at:"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du har spørsmål om denne personvernserklæringen eller ønsker å utøve dine rettigheter, kan du kontakte oss på:"
           }
         }
       }
     },
-    "privacy.cookies": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cookies og lokal lagring"
+    "privacy.cookies" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cookies and local storage"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cookies and local storage"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cookies og lokal lagring"
           }
         }
       }
     },
-    "privacy.cookiesContent": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vi bruker cookies og lokal lagring for å:\n\n• Huske dine innloggingsopplysninger\n• Lagre språk- og temainnstillinger\n• Forbedre ytelsen til applikasjonen\n• I demo-modus: lagre alle data lokalt i nettleseren\n\nDu kan administrere cookie-innstillinger i din nettleser."
+    "privacy.cookiesContent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We use cookies and local storage to:\n\n• Remember your login credentials\n• Store language and theme preferences\n• Improve application performance\n• In demo mode: store all data locally in the browser\n\nYou can manage cookie settings in your browser."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "We use cookies and local storage to:\n\n• Remember your login credentials\n• Store language and theme preferences\n• Improve application performance\n• In demo mode: store all data locally in the browser\n\nYou can manage cookie settings in your browser."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi bruker cookies og lokal lagring for å:\n\n• Huske dine innloggingsopplysninger\n• Lagre språk- og temainnstillinger\n• Forbedre ytelsen til applikasjonen\n• I demo-modus: lagre alle data lokalt i nettleseren\n\nDu kan administrere cookie-innstillinger i din nettleser."
           }
         }
       }
     },
-    "privacy.dataController": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Behandlingsansvarlig"
+    "privacy.dataController" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data Controller"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Data Controller"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Behandlingsansvarlig"
           }
         }
       }
     },
-    "privacy.dataHowWeUse": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hvordan vi bruker dine opplysninger"
+    "privacy.dataHowWeUse" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How we use your information"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "How we use your information"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvordan vi bruker dine opplysninger"
           }
         }
       }
     },
-    "privacy.dataHowWeUseContent": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vi bruker dine opplysninger til å:\n\n• Tilby og drifte kjørelogg-tjenesten\n• Lagre og organisere dine kjøredata\n• Generere rapporter og eksporter\n• Gi kundestøtte og teknisk support\n• Forbedre og utvikle tjenesten\n• Kommunisere viktige oppdateringer om tjenesten"
+    "privacy.dataHowWeUseContent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We use your information to:\n\n• Provide and operate the driving log service\n• Store and organize your driving data\n• Generate reports and exports\n• Provide customer support and technical assistance\n• Improve and develop the service\n• Communicate important updates about the service"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "We use your information to:\n\n• Provide and operate the driving log service\n• Store and organize your driving data\n• Generate reports and exports\n• Provide customer support and technical assistance\n• Improve and develop the service\n• Communicate important updates about the service"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi bruker dine opplysninger til å:\n\n• Tilby og drifte kjørelogg-tjenesten\n• Lagre og organisere dine kjøredata\n• Generere rapporter og eksporter\n• Gi kundestøtte og teknisk support\n• Forbedre og utvikle tjenesten\n• Kommunisere viktige oppdateringer om tjenesten"
           }
         }
       }
     },
-    "privacy.dataSecurity": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Datasikkerhet"
+    "privacy.dataSecurity" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data security"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Data security"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datasikkerhet"
           }
         }
       }
     },
-    "privacy.dataSecurityContent": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vi implementerer passende tekniske og organisatoriske tiltak for å beskytte dine personopplysninger mot uautorisert tilgang, endring, avsløring eller ødeleggelse. Dette inkluderer kryptering, sikre servere og regelmessige sikkerhetsoppdateringer."
+    "privacy.dataSecurityContent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. This includes encryption, secure servers, and regular security updates."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. This includes encryption, secure servers, and regular security updates."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi implementerer passende tekniske og organisatoriske tiltak for å beskytte dine personopplysninger mot uautorisert tilgang, endring, avsløring eller ødeleggelse. Dette inkluderer kryptering, sikre servere og regelmessige sikkerhetsoppdateringer."
           }
         }
       }
     },
-    "privacy.dataSharing": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Deling av data"
+    "privacy.dataSharing" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data sharing"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Data sharing"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deling av data"
           }
         }
       }
     },
-    "privacy.dataSharingContent": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vi deler ikke dine personopplysninger med tredjeparter, bortsett fra:\n\n• Supabase (vår leverandør av skytjenester) for datalagring\n• Når det er påkrevd av lov eller myndigheter\n• For å beskytte våre rettigheter eller andres sikkerhet\n\nVi selger aldri dine personopplysninger."
+    "privacy.dataSharingContent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We do not share your personal information with third parties, except:\n\n• Supabase (our cloud service provider) for data storage\n• When required by law or authorities\n• To protect our rights or others' safety\n\nWe never sell your personal information."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "We do not share your personal information with third parties, except:\n\n• Supabase (our cloud service provider) for data storage\n• When required by law or authorities\n• To protect our rights or others' safety\n\nWe never sell your personal information."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi deler ikke dine personopplysninger med tredjeparter, bortsett fra:\n\n• Supabase (vår leverandør av skytjenester) for datalagring\n• Når det er påkrevd av lov eller myndigheter\n• For å beskytte våre rettigheter eller andres sikkerhet\n\nVi selger aldri dine personopplysninger."
           }
         }
       }
     },
-    "privacy.dataStorage": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Datalagring og oppbevaring"
+    "privacy.dataStorage" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data storage and retention"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Data storage and retention"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datalagring og oppbevaring"
           }
         }
       }
     },
-    "privacy.dataStorageContent": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dine data lagres sikkert hos Supabase (cloud-modus) eller lokalt i din nettleser (demo-modus). I cloud-modus lagres data kryptert og sikres med moderne sikkerhetsprotokoller. Vi oppbevarer dine data så lenge du har en aktiv konto, eller som påkrevd av gjeldende lovgivning."
+    "privacy.dataStorageContent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your data is stored securely with Supabase (cloud mode) or locally in your browser (demo mode). In cloud mode, data is stored encrypted and secured with modern security protocols. We retain your data as long as you have an active account, or as required by applicable law."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your data is stored securely with Supabase (cloud mode) or locally in your browser (demo mode). In cloud mode, data is stored encrypted and secured with modern security protocols. We retain your data as long as you have an active account, or as required by applicable law."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dine data lagres sikkert hos Supabase (cloud-modus) eller lokalt i din nettleser (demo-modus). I cloud-modus lagres data kryptert og sikres med moderne sikkerhetsprotokoller. Vi oppbevarer dine data så lenge du har en aktiv konto, eller som påkrevd av gjeldende lovgivning."
           }
         }
       }
     },
-    "privacy.dataWhatWeCollect": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hvilke opplysninger vi samler inn"
+    "privacy.dataWhatWeCollect" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What information we collect"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "What information we collect"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvilke opplysninger vi samler inn"
           }
         }
       }
     },
-    "privacy.dataWhatWeCollectContent": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vi samler inn følgende typer opplysninger:\n\n• Kontoinformasjon: E-postadresse, fornavn og etternavn\n• Kjøredata: Datoer, distanser, ruter, reisetid, passasjerinformasjon og kommentarer\n• Teknisk informasjon: IP-adresse, nettlesertype og bruksmønster for å forbedre tjenesten\n• Cookies og lignende teknologier for å huske dine preferanser"
+    "privacy.dataWhatWeCollectContent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We collect the following types of information:\n\n• Account information: Email address, first name, and last name\n• Driving data: Dates, distances, routes, travel time, passenger information, and comments\n• Technical information: IP address, browser type, and usage patterns to improve the service\n• Cookies and similar technologies to remember your preferences"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "We collect the following types of information:\n\n• Account information: Email address, first name, and last name\n• Driving data: Dates, distances, routes, travel time, passenger information, and comments\n• Technical information: IP address, browser type, and usage patterns to improve the service\n• Cookies and similar technologies to remember your preferences"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi samler inn følgende typer opplysninger:\n\n• Kontoinformasjon: E-postadresse, fornavn og etternavn\n• Kjøredata: Datoer, distanser, ruter, reisetid, passasjerinformasjon og kommentarer\n• Teknisk informasjon: IP-adresse, nettlesertype og bruksmønster for å forbedre tjenesten\n• Cookies og lignende teknologier for å huske dine preferanser"
           }
         }
       }
     },
-    "privacy.introduction": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Denne personvernserklæringen beskriver hvordan Kjørelista (\"vi\", \"oss\", \"vår\") samler inn, bruker og beskytter dine personopplysninger når du bruker vår kjørelogg-tjeneste."
+    "privacy.introduction" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This privacy policy describes how Drive Log (\"we\", \"us\", \"our\") collects, uses, and protects your personal information when you use our driving log service."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This privacy policy describes how Drive Log (\"we\", \"us\", \"our\") collects, uses, and protects your personal information when you use our driving log service."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne personvernserklæringen beskriver hvordan Kjørelista (\"vi\", \"oss\", \"vår\") samler inn, bruker og beskytter dine personopplysninger når du bruker vår kjørelogg-tjeneste."
           }
         }
       }
     },
-    "privacy.lastUpdated": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sist oppdatert: 8. januar 2025"
+    "privacy.lastUpdated" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last updated: January 8, 2025"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Last updated: January 8, 2025"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sist oppdatert: 8. januar 2025"
           }
         }
       }
     },
-    "privacy.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Personvernserklæring"
+    "privacy.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy Policy"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Privacy Policy"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personvernserklæring"
           }
         }
       }
     },
-    "privacy.userRights": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dine rettigheter"
+    "privacy.userRights" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your rights"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your rights"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dine rettigheter"
           }
         }
       }
     },
-    "privacy.userRightsContent": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Du har rett til å:\n\n• Få tilgang til dine personopplysninger\n• Rette feil eller mangelfulle opplysninger\n• Slette din konto og alle tilknyttede data\n• Eksportere dine data i et maskinlesbart format\n• Trekke tilbake samtykke der det er relevant\n• Klage til Datatilsynet"
+    "privacy.userRightsContent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You have the right to:\n\n• Access your personal information\n• Correct incorrect or incomplete information\n• Delete your account and all associated data\n• Export your data in a machine-readable format\n• Withdraw consent where applicable\n• File a complaint with the data protection authority"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "You have the right to:\n\n• Access your personal information\n• Correct incorrect or incomplete information\n• Delete your account and all associated data\n• Export your data in a machine-readable format\n• Withdraw consent where applicable\n• File a complaint with the data protection authority"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du har rett til å:\n\n• Få tilgang til dine personopplysninger\n• Rette feil eller mangelfulle opplysninger\n• Slette din konto og alle tilknyttede data\n• Eksportere dine data i et maskinlesbart format\n• Trekke tilbake samtykke der det er relevant\n• Klage til Datatilsynet"
           }
         }
       }
     },
-    "summary.addFirstTrip": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Legg til din første kjøretur for å se statistikk"
+    "summary.addFirstTrip" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add your first trip to see statistics"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Add your first trip to see statistics"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg til din første kjøretur for å se statistikk"
           }
         }
       }
     },
-    "summary.expenses": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Utgifter"
+    "summary.expenses" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expenses"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Expenses"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utgifter"
           }
         }
       }
     },
-    "summary.export": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eksporter"
+    "summary.export" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Export"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Export"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksporter"
           }
         }
       }
     },
-    "summary.noTripsThisMonth": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ingen turer registrert i"
+    "summary.noTripsThisMonth" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No trips recorded in"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No trips recorded in"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen turer registrert i"
           }
         }
       }
     },
-    "summary.printReport": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Print rapport"
+    "summary.printReport" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Print report"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Print report"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Print rapport"
           }
         }
       }
     },
-    "summary.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Månedsammendrag"
+    "summary.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monthly Summary"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Monthly Summary"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Månedsammendrag"
           }
         }
       }
     },
-    "summary.totalDriveTime": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total kjøretid"
+    "summary.totalDriven" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total driven"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total drive time"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total kjørt"
           }
         }
       }
     },
-    "summary.totalDriven": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total kjørt"
+    "summary.totalDrivenInYear" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total driven in"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total driven"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Totalt kjørt i"
           }
         }
       }
     },
-    "summary.totalDrivenInYear": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Totalt kjørt i"
+    "summary.totalDriveTime" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total drive time"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total driven in"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total kjøretid"
           }
         }
       }
     },
-    "summary.totalExpenses": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Andre utgifter"
+    "summary.totalExpenses" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Other Expenses"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Other Expenses"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andre utgifter"
           }
         }
       }
     },
-    "summary.totalInYear": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "totalt i"
+    "summary.totalInYear" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "total in"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "total in"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "totalt i"
           }
         }
       }
     },
-    "summary.totalKilometers": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total kilometer"
+    "summary.totalKilometers" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total Kilometers"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total Kilometers"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total kilometer"
           }
         }
       }
     },
-    "summary.totalTime": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total reisetid"
+    "summary.totalTime" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total Travel Time"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total Travel Time"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total reisetid"
           }
         }
       }
     },
-    "summary.totalTrips": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Antall turer"
+    "summary.totalTrips" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Number of Trips"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Number of Trips"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antall turer"
           }
         }
       }
     },
-    "summary.tripsThisYear": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "kjøreturer dette året"
+    "summary.tripsThisYear" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "trips this year"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "trips this year"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kjøreturer dette året"
           }
         }
       }
     },
-    "summary.withPassengers": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Med passasjerer"
+    "summary.withPassengers" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "With passengers"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "With passengers"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med passasjerer"
           }
         }
       }
     },
-    "summary.year": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "år"
+    "summary.year" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "year"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "year"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "år"
           }
         }
       }
     },
-    "supabase.createDatabase": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Opprett Database"
+    "supabase.createDatabase" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create Database"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Create Database"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opprett Database"
           }
         }
       }
     },
-    "supabase.createProject": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Opprett Supabase Prosjekt"
+    "supabase.createProject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create Supabase Project"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Create Supabase Project"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opprett Supabase Prosjekt"
           }
         }
       }
     },
-    "supabase.getApiKeys": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hent API-nøkler"
+    "supabase.getApiKeys" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get API Keys"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Get API Keys"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hent API-nøkler"
           }
         }
       }
     },
-    "supabase.of": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "av"
+    "supabase.of" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "of"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "of"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "av"
           }
         }
       }
     },
-    "supabase.setupTitle": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Supabase Oppsett Guide"
+    "supabase.setupTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supabase Setup Guide"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Supabase Setup Guide"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supabase Oppsett Guide"
           }
         }
       }
     },
-    "supabase.step": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Steg"
+    "supabase.step" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Step"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Step"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steg"
           }
         }
       }
     },
-    "supabase.updateCode": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Oppdater Kode"
+    "supabase.updateCode" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update Code"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Update Code"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppdater Kode"
           }
         }
       }
+    },
+    "svenway" : {
+
     },
-    "trips.addExpenses": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Legg til utgifter"
+    "trips.addExpenses" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add expenses"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Add expenses"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg til utgifter"
           }
         }
       }
     },
-    "trips.addNew": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Legg til ny kjøretur"
+    "trips.addNew" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add New Trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Add New Trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg til ny kjøretur"
           }
         }
       }
     },
-    "trips.cancel": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Avbryt"
+    "trips.cancel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cancel"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
           }
         }
       }
     },
-    "trips.comment": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kommentar"
+    "trips.comment" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comment"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Comment"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kommentar"
           }
         }
       }
     },
-    "trips.commentDescription": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Valgfritt felt for notater eller tilleggsinformasjon"
+    "trips.commentDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optional field for notes or additional information"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Optional field for notes or additional information"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valgfritt felt for notater eller tilleggsinformasjon"
           }
         }
       }
     },
-    "trips.commentPlaceholder": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Valgfri kommentar til kjøreturen..."
+    "trips.commentPlaceholder" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optional comment for this trip..."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Optional comment for this trip..."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valgfri kommentar til kjøreturen..."
           }
         }
       }
     },
-    "trips.confirmDelete": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Slett kjøretur"
+    "trips.confirmDelete" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Delete Trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett kjøretur"
           }
         }
       }
     },
-    "trips.date": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dato"
+    "trips.date" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Date"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dato"
           }
         }
       }
     },
-    "trips.dateRequired": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dato er påkrevd"
+    "trips.dateRequired" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date is required"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Date is required"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dato er påkrevd"
           }
         }
       }
     },
-    "trips.delete": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Slett"
+    "trips.delete" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Delete"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett"
           }
         }
       }
     },
-    "trips.deleteMessage": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Er du sikker på at du vil slette denne kjøreturen? Denne handlingen kan ikke angres."
+    "trips.deleteMessage" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are you sure you want to delete this trip? This action cannot be undone."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Are you sure you want to delete this trip? This action cannot be undone."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er du sikker på at du vil slette denne kjøreturen? Denne handlingen kan ikke angres."
           }
         }
       }
     },
-    "trips.edit": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rediger kjøretur"
+    "trips.edit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit Trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Edit Trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rediger kjøretur"
           }
         }
       }
     },
-    "trips.expenseDescription": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Beskrivelse av utgifter"
+    "trips.expenseDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expense Description"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Expense Description"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beskrivelse av utgifter"
           }
         }
       }
     },
-    "trips.expensePlaceholder": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "f.eks. Bompenger, parkering"
+    "trips.expensePlaceholder" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "e.g. Tolls, parking"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "e.g. Tolls, parking"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "f.eks. Bompenger, parkering"
           }
         }
       }
     },
-    "trips.hadPassengers": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hadde passasjerer"
+    "trips.hadPassengers" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Had passengers"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Had passengers"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hadde passasjerer"
           }
         }
       }
     },
-    "trips.hours": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Timer"
+    "trips.hours" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hours"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hours"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer"
           }
         }
       }
     },
-    "trips.hoursRequired": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Timer må være 0 eller høyere"
+    "trips.hoursRequired" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hours must be 0 or higher"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hours must be 0 or higher"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer må være 0 eller høyere"
           }
         }
       }
     },
-    "trips.keyboardShortcuts": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tastatursnarveier: Ctrl+Enter (lagre), Escape (avbryt)"
+    "trips.keyboardShortcuts" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keyboard shortcuts: Ctrl+Enter (save), Escape (cancel)"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Keyboard shortcuts: Ctrl+Enter (save), Escape (cancel)"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tastatursnarveier: Ctrl+Enter (lagre), Escape (avbryt)"
           }
         }
       }
     },
-    "trips.kilometers": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kilometer"
+    "trips.kilometers" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kilometers"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kilometers"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kilometer"
           }
         }
       }
     },
-    "trips.kilometersRequired": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kilometer må være et positivt tall"
+    "trips.kilometersRequired" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kilometers must be a positive number"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kilometers must be a positive number"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kilometer må være et positivt tall"
           }
         }
       }
     },
-    "trips.minutes": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Minutter"
+    "trips.minutes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minutes"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Minutes"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minutter"
           }
         }
       }
     },
-    "trips.minutesRequired": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Minutter må være mellom 0 og 59"
+    "trips.minutesRequired" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minutes must be between 0 and 59"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Minutes must be between 0 and 59"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minutter må være mellom 0 og 59"
           }
         }
       }
     },
-    "trips.noTrips": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ingen kjøreturer registrert"
+    "trips.noTrips" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No trips recorded"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No trips recorded"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen kjøreturer registrert"
           }
         }
       }
     },
-    "trips.noTripsThisMonth": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ingen kjøreturer registrert for"
+    "trips.noTripsThisMonth" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No trips recorded for"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No trips recorded for"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen kjøreturer registrert for"
           }
         }
       }
     },
-    "trips.otherExpenses": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Andre utgifter (kr)"
+    "trips.otherExpenses" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Other Expenses"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Other Expenses"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andre utgifter (kr)"
           }
         }
       }
     },
-    "trips.passenger": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "passasjer"
+    "trips.passenger" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "passenger"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "passenger"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "passasjer"
           }
         }
       }
     },
-    "trips.passengerCount": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Antall passasjerer"
+    "trips.passengerCount" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Number of Passengers"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Number of Passengers"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antall passasjerer"
           }
         }
       }
     },
-    "trips.passengerCountRequired": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Antall passasjerer må være et positivt tall"
+    "trips.passengerCountRequired" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Number of passengers must be a positive number"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Number of passengers must be a positive number"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antall passasjerer må være et positivt tall"
           }
         }
       }
     },
-    "trips.passengerKilometers": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kilometer med passasjerer"
+    "trips.passengerKilometers" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kilometers with Passengers"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kilometers with Passengers"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kilometer med passasjerer"
           }
         }
       }
     },
-    "trips.passengerKilometersRequired": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Passasjer-kilometer må være et positivt tall"
+    "trips.passengerKilometersRequired" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passenger kilometers must be a positive number"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Passenger kilometers must be a positive number"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passasjer-kilometer må være et positivt tall"
           }
         }
       }
     },
-    "trips.passengers": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "passasjerer"
+    "trips.passengers" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "passengers"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "passengers"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "passasjerer"
           }
         }
       }
     },
-    "trips.passengersDescription": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aktiver hvis du hadde passasjerer med på turen"
+    "trips.passengersDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable if you had passengers on the trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Enable if you had passengers on the trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktiver hvis du hadde passasjerer med på turen"
           }
         }
       }
     },
-    "trips.requiredFields": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Obligatoriske felt: Dato, Kilometer, Strekning, Reisetid"
+    "trips.requiredFields" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Required fields: Date, Kilometers, Route, Travel time"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Required fields: Date, Kilometers, Route, Travel time"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obligatoriske felt: Dato, Kilometer, Strekning, Reisetid"
           }
         }
       }
     },
-    "trips.route": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Strekning"
+    "trips.route" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Route"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Route"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strekning"
           }
         }
       }
     },
-    "trips.routePlaceholder": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "f.eks. Oslo - Drammen"
+    "trips.routePlaceholder" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "e.g. Oslo - Drammen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "e.g. Oslo - Drammen"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "f.eks. Oslo - Drammen"
           }
         }
       }
     },
-    "trips.routeRequired": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Strekning er påkrevd"
+    "trips.routeRequired" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Route is required"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Route is required"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strekning er påkrevd"
           }
         }
       }
     },
-    "trips.save": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lagre kjøretur"
+    "trips.save" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Save Trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre kjøretur"
           }
         }
       }
     },
-    "trips.saveTrip": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lagre kjøretur"
+    "trips.saveTrip" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Save Trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre kjøretur"
           }
         }
       }
     },
-    "trips.saving": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lagrer..."
+    "trips.saving" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saving..."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Saving..."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagrer..."
           }
         }
       }
     },
-    "trips.swipeInstructions": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Trykk for å redigere • Dra til venstre for å slette"
+    "trips.swipeInstructions" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to edit • Swipe left to delete"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tap to edit • Swipe left to delete"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trykk for å redigere • Dra til venstre for å slette"
           }
         }
       }
     },
-    "trips.thisMonth": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kjøreturer denne måneden"
+    "trips.thisMonth" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trips this month"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Trips this month"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kjøreturer denne måneden"
           }
         }
       }
     },
-    "trips.travelTime": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reisetid"
+    "trips.travelTime" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Travel Time"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Travel Time"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reisetid"
           }
         }
       }
     },
-    "trips.trip": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "tur"
+    "trips.trip" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tur"
           }
         }
       }
     },
-    "trips.tripCount": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "turer"
+    "trips.tripCount" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "trips"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "trips"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "turer"
           }
         }
       }
     },
-    "trips.tripDeleteError": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kunne ikke slette kjøretur"
+    "trips.tripDeleted" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trip deleted"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Could not delete trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kjøretur slettet"
           }
         }
       }
     },
-    "trips.tripDeleted": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kjøretur slettet"
+    "trips.tripDeleteError" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not delete trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Trip deleted"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke slette kjøretur"
           }
         }
       }
     },
-    "trips.tripSaveError": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kunne ikke legge til kjøretur"
+    "trips.tripSaved" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trip saved"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Could not add trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kjøretur lagret"
           }
         }
       }
     },
-    "trips.tripSaved": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kjøretur lagret"
+    "trips.tripSaveError" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not add trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Trip saved"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke legge til kjøretur"
           }
         }
       }
     },
-    "trips.tripUpdateError": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kunne ikke oppdatere kjøretur"
+    "trips.tripsPlural" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "trips"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Could not update trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "turer"
           }
         }
       }
     },
-    "trips.tripUpdated": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Endringer lagret"
+    "trips.tripUpdated" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Changes saved"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Changes saved"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Endringer lagret"
           }
         }
       }
     },
-    "trips.tripsPlural": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "turer"
+    "trips.tripUpdateError" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not update trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "trips"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke oppdatere kjøretur"
           }
         }
       }
     },
-    "trips.update": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Oppdater kjøretur"
+    "trips.update" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update Trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Update Trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppdater kjøretur"
           }
         }
       }
     },
-    "trips.updateTrip": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Oppdater kjøretur"
+    "trips.updateTrip" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update Trip"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Update Trip"
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppdater kjøretur"
           }
         }
       }
     },
-    "trips.updating": {
-      "extractionState": "manual",
-      "localizations": {
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Oppdaterer..."
+    "trips.updating" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updating..."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Updating..."
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppdaterer..."
           }
         }
       }
     }
   },
-  "version": "1.0"
+  "version" : "1.0"
 }
