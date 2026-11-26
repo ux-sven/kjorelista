@@ -1,0 +1,57 @@
+/* Kjørelista – felles stil for støtte- og personvernsidene.
+   Profil fra logoen: lilla gradient (#7E6F91 → #4E3F66) og gull (#DBC388). */
+:root {
+  --purple-light: #7e6f91;
+  --purple: #63517b;
+  --purple-dark: #4e3f66;
+  --gold: #dbc388;
+  --bg: #f5f3f8;
+  --card: #ffffff;
+  --text: #2e2540;
+  --muted: #6b6280;
+  --border: #e3deea;
+  --link: #5a4873;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1c1726;
+    --card: #2a2337;
+    --text: #f5f2f9;
+    --muted: #c3bbd0;
+    --border: #4a4058;
+    --link: #dbc388;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+a { color: var(--link); }
+header.brand {
+  background: linear-gradient(135deg, var(--purple-light), var(--purple-dark));
+  padding: 28px 16px 24px;
+  text-align: center;
+}
+header.brand a { display: inline-flex; flex-direction: column; align-items: center; gap: 12px; text-decoration: none; }
+header.brand .icon { width: 72px; height: 72px; border-radius: 16px; box-shadow: 0 4px 14px rgba(0, 0, 0, .25); }
+header.brand .wordmark { width: min(240px, 70vw); height: auto; }
+header.brand p { margin: 6px 0 0; color: rgba(255, 255, 255, .85); font-size: 15px; }
+nav.top { display: flex; justify-content: center; gap: 20px; margin-top: 14px; font-size: 15px; }
+nav.top a { color: #fff; opacity: .9; text-decoration: none; }
+nav.top a[aria-current="page"] { color: var(--gold); opacity: 1; font-weight: 600; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px 22px; margin: 0 0 18px; }
+h1 { font-size: 28px; line-height: 1.25; margin: 4px 0 6px; }
+h2 { font-size: 20px; margin: 0 0 8px; }
+h3 { font-size: 17px; margin: 18px 0 4px; }
+.meta { color: var(--muted); font-size: 14px; margin: 0 0 18px; }
+.lang { font-size: 14px; color: var(--muted); margin: 0 0 6px; }
+ul { padding-left: 22px; margin: 6px 0; }
+li { margin: 4px 0; }
+p { margin: 8px 0; }
+.contact { display: inline-block; margin-top: 4px; font-weight: 600; }
+footer { text-align: center; color: var(--muted); font-size: 14px; padding: 0 16px 32px; }
